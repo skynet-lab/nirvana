@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>Formulaire</title>
+        </head>
+        <body>
+                <form method="post" action="traitement.php">
+                <h1>Formulaire</h1>
+                <fieldset>
+                <legend>Civilité</legend> <!-- Titre du fieldset -->
+                <label for="nom">Quel est votre nom ?</label>
+                <input type="text" name="nom" id="nom" placeholder="Ex:MBOUMBA"/><br>
+                <label for="prenom">Quel est votre prénom ?</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Ex:Evans"/><br>
+                <label for="email">Quel est votre e-mail ?</label>
+                <input type="email" name="email" id="email" placeholder="Ex: metempsycose.nirvana@gmail.com"/><br>
+                <label for="tel">Quel est votre numero de telephone ?</label>
+                <input type="tel" name="tel" id="tel" placeholder="+24166678943"/><br>
+                <p>Veuillez indiquer votre sexe:<br/><input type="radio" name="sexe" id="homme" /> 
+                <label for="homme">Homme</label><br />
+                <input type="radio" name="sexe" id="femme"/>
+                <label for="femme">Femme</label>
+                </p>
+                </fieldset>
+                <fieldset>
+                <legend>Formation</legend> <!-- Titre du fieldset -->
+                <p>
+                <label for="Diplomes">Diplomes optenus ?</label><br />
+                <select name="Diplomes" id="Diplomes">
+                <option value="CEP">CEP</option>
+                <option value="BEPC">BEPC</option>
+                <option value="BAC">BAC</option>
+                <option value="BAC+2">BAC+2</option>
+                <option value="BAC+3" selected>BAC+3</option>
+                <option value="Master">Master</option>
+                <option value="Doctorat">Doctorat</option>
+                <option value="Skynet">Skynet</option>
+                </select>
+                </p>
+                <p>
+                Cochez vos differents centres d'interets :<br />
+                <input type="checkbox" name="cinema" id="cinema" /> <label
+                for="cinema">Cinema</label><br />
+                <input type="checkbox" name="lecture" id="lecture" /> <label
+                for="lecture">Lecture</label><br />
+                <input type="checkbox" name="voyage" id="voyage" />
+                <label for="voyage">Voyage</label><br />
+                <input type="checkbox" name="sport" id="sport" /> <label
+                for="sport">Sport</label>
+                </p>
+
+                </fieldset>
+                <fieldset>
+                <legend>Autres</legend>
+                <p>
+                <label for="commantaire" id="commantaire">Comment trouvez vous mon formulaire?</label><br />
+                <textarea name="commantaire" id="commantaire" rows="10" cols="50" placeholder="votre commantaire ici" ></textarea>
+                </p>
+                </fieldset>
+                <fieldset>
+                <legend>Securité</legend>
+                <p> Saississé un mot de passe:
+                <input type="password" size="15" maxlength="20" />
+                </p>
+                <p>
+                Veuillez retappé votre mot de passe:
+                <input type="password" size="15" maxlength="20" />
+                </p>
+                <p>
+                    <input type="radio" name="reglement" id="reglement"/>
+                <label for="reglement" aria-required="true">j'accepte les reglement d'utilisation</label>
+                </p>
+                </fieldset>
+                <input type="submit" value="Envoyer" />
+                    
+                </form>
+
+        </body>
+</html>
