@@ -1,0 +1,36 @@
+section{
+    background-color:white;
+}
+body
+{
+    box-shadow:6px 3px 6px 3px;
+    margin-left: 15%;
+    margin-right: 15% ;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-image: url("/root/Bureau/taff/site-master/assets/img/space.jpg")  ;background-position: center;
+}
+p{
+    text-indent: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+     
+}
+
+.civilite p{
+    text-indent: 0px;
+    
+}
+.tel{
+color: black;
+text-decoration-line: none;
+}
+.email{
+    color: black;
+    text-decoration-line: none;
+    margin-left: 50px;
+}
+.date{
+    margin-left: 70%;
+}

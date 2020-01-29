@@ -3,11 +3,25 @@
         <head>
                 <meta charset="utf-8">
                 <title>Formulaire</title>
+                <link rel="stylesheet" href="formulaire.css">
         </head>
         <body>
+            <h1 class="monsuper-titre">Bienvenue sur mon site perso</h1>
+            <!--en tete de ma ppage-->
+            <div id="main">
+                <nav>
+                    <a href="index.html" target="_blank"> Accueil</a>
+                    <a href="projets/media/assets/index.html" target="_blank"> Media<a>
+                    <a href="/root/Bureau/taff/site-master/projets/lettre/index.html" target="_blank">Lettre</a>
+                    <a href="projets/tableau/index.html" target="_blank">Tableau</a>
+                    <a href="projets/formulaire/index.html" target="_blank">Formulaire</a>
+                </nav>
+                </div>
+
+                <div>
                 <form method="post" action="traitement.php">
                 <h1>Formulaire</h1>
-                <fieldset>
+                <fieldset class="civil">
                 <legend>Civilité</legend> <!-- Titre du fieldset -->
                 <label for="nom">Quel est votre nom ?</label>
                 <input type="text" name="nom" id="nom" placeholder="Ex:MBOUMBA"/><br>
@@ -23,6 +37,9 @@
                 <label for="femme">Femme</label>
                 </p>
                 </fieldset>
+                </div>
+
+                <div>
                 <fieldset>
                 <legend>Formation</legend> <!-- Titre du fieldset -->
                 <p>
@@ -49,8 +66,10 @@
                 <input type="checkbox" name="sport" id="sport" /> <label
                 for="sport">Sport</label>
                 </p>
-
                 </fieldset>
+                </div>
+
+                <div>
                 <fieldset>
                 <legend>Autres</legend>
                 <p>
@@ -58,6 +77,8 @@
                 <textarea name="commantaire" id="commantaire" rows="10" cols="50" placeholder="votre commantaire ici" ></textarea>
                 </p>
                 </fieldset>
+                </div>
+
                 <fieldset>
                 <legend>Securité</legend>
                 <p> Saississé un mot de passe:
