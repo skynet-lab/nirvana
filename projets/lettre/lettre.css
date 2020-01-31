@@ -18,8 +18,9 @@ p{
      
 }
 
-.civilite p{
-    text-indent: 0px;
+.civilite{
+    padding-top: 10px;
+    
     
 }
 .tel{
@@ -33,4 +34,8 @@ text-decoration-line: none;
 }
 .date{
     margin-left: 70%;
+}
+.pfoot{
+   color: red;
+  
 }

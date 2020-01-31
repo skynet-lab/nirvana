@@ -1,0 +1,41 @@
+td{
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+th{
+    border: 5px solid rgb(42, 1, 194);
+    padding: 10px 10px;
+    border-radius: 20px;
+    
+}
+tr.tete{
+    background-color: rgb(224, 6, 6);
+}
+table{
+    border-collapse: collapse;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+body{
+    background-image: url(clock.jpeg);
+   background-position:center;
+    background-repeat: no-repeat;
+}
+/*caption{
+    text-transform: capitalize;
+    text-decoration: rgb(224, 6, 6);
+}*/
+h1{ 
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+}

@@ -1,3 +1,85 @@
-.civil{
-    margin-right: auto;
+
+
+
+#main{
+
+}
+body{
+    background-image: url(img/space.jpg) ;
+    background-position: center;
+}
+.gogeta{
+    margin: 5% 15%;
+    box-shadow: 6px 6px 6px 6px;
+    /*background-color:blue;*/
+    background-image: url(edu.jpg);
+   
+
+
+
+}
+h1{
+    text-align: center;
+}
+.vegeto{
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(89, 190, 230);
+  
+}
+.beerus{
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(89, 190, 230);
+
+}
+.jiren{
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(89, 190, 230);
+
+}
+.whis{
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(89, 190, 230);
+
+}
+
+input[type="text"]{
+    
+    margin-left: 15%;
+    width : 200px;
+    margin-top: 2%;
+}
+input[type="email"]{
+    width: 200px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+input[type=tel]{
+    width: 200px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+input [type="submit"]{
+   
+}
+
+legend{
+    color:red;
+    text-transform: uppercase;
+    font-weight: bold;
 }
