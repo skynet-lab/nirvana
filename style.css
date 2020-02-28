@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(assets/img/marvel.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(assets/img/570265.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -27,6 +27,7 @@ ul li a{
     padding: 5px 20px;
     border: 1px solid #fff;
     transition: 0.7s ease;
+    border-radius: 3px;
    
 }
 ul li a:hover{
@@ -56,7 +57,7 @@ ul li.active a{
 }
 .boutton{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -80,7 +81,71 @@ ul li.active a{
     }
     .ps h1{
         color: #fff;
-        font-size: 50px;
+        font-size: 55px;
         
         
     }
+    .ps p{
+        font-style: italic;
+        color: white;
+    }
+
+
+header .wave{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    background: url(assets/img/wav.png);
+    opacity: 0.4;
+    animation: animate 15s linear infinite;
+}
+
+header .wave:before{
+    content: '';
+    width: 100%;
+    height: 60px;
+    background: url(assets/img/wav.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    animation: animate-reverse 15s linear infinite;
+
+
+}
+
+@keyframes animate{
+
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 1360px;
+    }
+
+}
+
+@keyframes animate-reverse{
+
+    0%{
+        background-position: 1360px;
+    }
+    100%{
+        background-position: 0;
+    }
+
+}
+.logo p a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Fjalla One',sans-serif ;
+    margin-left: 20px;
+    
+}
+
+
