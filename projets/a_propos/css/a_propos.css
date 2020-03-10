@@ -171,8 +171,8 @@ footer .wave:before{
 
 }
 .box-img{
-    height: 200px;
-    width: 200px;
+    height: 235px;
+    width: 235px;
     border-radius: 50%;
     margin-bottom: 30px;
     margin: 0 auto;
@@ -206,5 +206,5 @@ header div:nth-child(3){
     
 }
 img.box-img{
-    margin: 0 400px;
+    margin: 0 378px;
 }
