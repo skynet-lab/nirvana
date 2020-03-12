@@ -10,10 +10,10 @@ body{
 }
 .skillsbox{
     position: relative;
-    width: 600px;
+    width: 550px;
     height: 310px;
     padding: 45px;
-    margin: 45px 60px 70px 20px;
+    margin: 45px 125px 70px 20px;
     border: 2px solid #fff;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.575);
@@ -78,7 +78,7 @@ header{
 ul{
     list-style-type: none;
     float: right;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: -10px;
     
    
@@ -142,7 +142,7 @@ ul li.active a{
 
 
 header .wave{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 25px;
     bottom: 0;
@@ -195,12 +195,14 @@ header .wave:before{
     font-weight: 900;
     font-family: 'Fjalla One',sans-serif ;
     margin-left: 20px;
-    
 }
+
+
+
 
 .profil{
     position: relative;
-    width: 400px;
+    width: 320px;
     height: 310px;
     padding: 45px;
     border: 2px solid #fff;
@@ -208,7 +210,8 @@ header .wave:before{
     background: rgba(0, 0, 0, 0.575);
     float: left;
     margin-top: 45px;
-    margin-left: 60px;
+    margin-left: 125px;
+    
 }
 .profil h1, h4{
     color: #fff;
@@ -216,7 +219,7 @@ header .wave:before{
     text-transform: uppercase;
 }
 .profil h1{
-    font-size: 32px;
+    font-size: 30px;
    
 }
 .profil p{
@@ -225,14 +228,17 @@ header .wave:before{
     margin-bottom: 5px;
 }
 
+
+
+
 .box{
     
     border-radius: 3px;
-    width: 1000px;
-    height: 455px;
+    width: 1060px;
+    height: 480px;
     background: rgba(0,0,0,0.5);
     padding: 15px 20px;
-    margin-top: 25px;
+    margin:60px 100px 15px 125px;
     text-align: justify;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -240,7 +246,6 @@ header .wave:before{
     
 
 }
-
 .box-img{
     height: 235px;
     width: 235px;
@@ -256,12 +261,13 @@ header .wave:before{
 .box p{
     
     margin-top: 30px;
+    padding-left: 30px;
 
     
 }
 
 .box h2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 
 }

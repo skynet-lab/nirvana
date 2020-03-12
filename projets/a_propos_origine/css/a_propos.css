@@ -1,81 +1,17 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(../img/570265.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    
 }
-.skillsbox{
-    position: relative;
-    width: 600px;
-    height: 310px;
-    padding: 45px;
-    margin: 45px 60px 70px 20px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.575);
-    float: right;
-}
-.skillsbox h1{
-    margin: 0 0 20px;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-}
-.skills h2{
-    margin: 10px 0 0;
-    padding: 0;
-    font-size: 18px ;
-    color: #fff;
-    text-transform: uppercase;
-}
-.skills{
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
-}
-.progress{
-    width: 100%;
-    height: 20px;
-    border-radius: 10px;
-    border: 2px solid #fff ;
-    text-align: center;
-    line-height: 22px;
-    overflow: hidden;
-}
-
-.progress .pourcentage{
-    text-align: right;
-    color: #fff;
-    padding-right: 10px;
-    border-right: 2px solid #fff;
-    animation: animate2 1s linear infinite;
-    background: linear-gradient(45deg, rgba(255,255,255,.25) 25%, 
-    transparent 25%, transparent 50%, rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,
-    transparent 75%, transparent );
-    background-size: 50px 50px ;
-}
-@keyframes animate2
-{
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 50px 0;
-    }
-}
-
-
-
-
 header{
- 
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/570265.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 ul{
+
     list-style-type: none;
     float: right;
     margin-top: 20px;
@@ -139,20 +75,42 @@ ul li.active a{
     background-color: #fff;
     color: #000000
 }
+ .ps{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+    }
+    .ps h1{
+        color: #fff;
+        font-size: 55px;
+        
+        
+    }
+    .ps p{
+        font-style: italic;
+        color: white;
+    }
 
 
-header .wave{
+footer div{
+        position: fixed;
+}
+
+footer .wave{
     position: absolute;
     width: 100%;
     height: 25px;
     bottom: 0;
     left: 0;
     background: url(../img/waa.png);
+    
     opacity: 0.4;
     animation: animate 15s linear infinite;
 }
 
-header .wave:before{
+footer .wave:before{
     content: '';
     width: 100%;
     height: 25px;
@@ -197,34 +155,6 @@ header .wave:before{
     margin-left: 20px;
     
 }
-
-.profil{
-    position: relative;
-    width: 400px;
-    height: 310px;
-    padding: 45px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.575);
-    float: left;
-    margin-top: 45px;
-    margin-left: 60px;
-}
-.profil h1, h4{
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-.profil h1{
-    font-size: 32px;
-   
-}
-.profil p{
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
 .box{
     
     border-radius: 3px;
@@ -240,7 +170,6 @@ header .wave:before{
     
 
 }
-
 .box-img{
     height: 235px;
     width: 235px;
