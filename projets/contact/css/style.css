@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/570265.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: -10px;
+    
+   
+}
+ul li{
+    display: inline-block;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.7s ease;
+    border-radius: 3px;
+   
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000000;
+}
+.ps{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.ps h1{
+    color: #fff;
+    font-size: 50px;
+    
+    
+}
+.boutton{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.5s ease; 
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000000
+}
+ .ps{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+    }
+    .ps h1{
+        color: #fff;
+        font-size: 55px;
+        
+        
+    }
+    .ps p{
+        font-style: italic;
+        color: white;
+    }
+
+
+header .wave{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    bottom: 0;
+    left: 0;
+    background: url(../img/waa.png);
+    opacity: 0.4;
+    animation: animate 15s linear infinite;
+}
+
+header .wave:before{
+    content: '';
+    width: 100%;
+    height: 25px;
+    background: url(../img/waa.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    animation: animate-reverse 15s linear infinite;
+
+
+}
+
+@keyframes animate{
+
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 1360px;
+    }
+
+}
+
+@keyframes animate-reverse{
+
+    0%{
+        background-position: 1360px;
+    }
+    100%{
+        background-position: 0;
+    }
+
+}
+.logo p a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Fjalla One',sans-serif ;
+    margin-left: 20px;
+    
+}
+
+.tableau{
+    height: 420px;
+    width: 700px;
+    background-color: #000000d8;
+    border-radius: 5px;
+    margin: 50px auto;
+   
+    
+    
+}
+
+.nom{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+
+.nom input[type="text"]{
+    
+    
+    width : 280px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.prenom{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.prenom input[type="text"]{
+    
+    
+    width : 280px;
+    height: 30px;
+    margin-left: 350px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+
+}
+.message{
+    position: absolute;
+    margin: 10px 50px 20px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+
+}
+.message textarea{
+    height: 220px;
+    width: 610px;
+}
+.mail{
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+.mail input[type="email"]{
+    width : 610px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+
+    
+}
+
+.envoi{
+    padding: 5px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.envoi input[type="submit"]{
+    border-radius: 3px;
+    border-bottom: 5px solid gray ;
+    border-right: 5px solid gray ;
+}
+
+
+.cv a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 260px;
+    right: 380px;
+    transition: 0.7s ease; 
+
+}
+.cv a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+
+.icons{
+    margin-top: 250px;
+    margin-right: 290px;
+    
+}
+
+.icons a:hover{
+    background-color: #3b5999;
+    color: #fff;
+}
+.icons .twit a:hover{
+    background-color: #55acee;
+    color: #fff;
+}
+.icons .twit a:hover{
+    background-color:#0077b5 ;
+    color: #fff;
+}
+.icons .what a:hover{
+    background-color: green;
+    color: white;
+    
+}
